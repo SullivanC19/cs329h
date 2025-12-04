@@ -1,0 +1,10 @@
+{
+	"name": "Experiments Dockerfile",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {}
+	}
+}
