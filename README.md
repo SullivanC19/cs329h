@@ -1,4 +1,5 @@
-# Whose Score is it Anyway?
+# <span style="color:teal">Whose score is it anyway?</span>
+
 
 ## [VS Code + Docker]
 
@@ -22,4 +23,13 @@ Build the apptainer image...
 Then run the experiments.py script...
 
 ```apptainer exec img.sif python experiments.py```
+
+## <span style="color:teal; font-weight:bold"><u>REQUIRED ENV VARIABLES</u></span>
+
+Make sure to set your HuggingFace and OpenAI tokens as follows...
+
+```
+export HUF_TOKEN=XXXXXXXXX
+export OAI_TOKEN=XXXXXXXXX
+```
 
