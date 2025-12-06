@@ -1,13 +1,8 @@
 # Whose score is it anyway?
 
-## REQUIRED ENV VARIABLES
+This repository requires a HuggingFace Hub Token and OpenAI key. You will be prompted to provide both.
 
-Make sure to set your HuggingFace and OpenAI tokens as follows...
-
-```
-export HUF_TOKEN=XXXXXXXXX
-export OAI_TOKEN=XXXXXXXXX
-```
+The experiments take roughly 5h to run in total.
 
 ## [VS Code + Docker]
 

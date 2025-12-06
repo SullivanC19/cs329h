@@ -13,7 +13,6 @@ RUN apt-get update && \
 
 RUN ln -sf /usr/bin/python3 /usr/bin/python
 
-# Sanity check: this line will FAIL the build if gcc is missing
 RUN gcc --version && cc --version
 
 # Torch + vLLM + deps ...
@@ -28,10 +27,9 @@ RUN python -m pip install --upgrade pip && \
         seaborn==0.13.2 \
         huggingface-hub==0.34.0 \
         datasets==2.19.0 \
-        hdbscan==0.8.40 \
-        sentence-transformers==5.1.1 \
-        vllm==0.11.0 \
-        ipykernel==6.29.4
+        ipykernel==6.29.4 \
+        faiss-cpu==1.13.0 \
+        openai==2.8.0
 
 WORKDIR /experiments
 COPY experiments /experiments/
