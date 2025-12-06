@@ -1,4 +1,4 @@
-# Whose score is it anyway?
+# Rational Crowdsourced LM Evaluation
 
 This repository requires a HuggingFace Hub Token and OpenAI key. You will be prompted to provide both.
 
