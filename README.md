@@ -21,7 +21,7 @@ Now you can run all notebooks manually to reproduce experimental results.
 
 Build the apptainer image...
 
-```apptainer pull img.sif docker://ghcr.io/colinsullivan/cs329h:latest```
+```apptainer pull img.sif docker://colinsullivan203/cs329h:latest```
 
 Then run the experiments.py script...
 
